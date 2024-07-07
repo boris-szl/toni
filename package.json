@@ -1,0 +1,26 @@
+{
+  "name": "toni-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to translate locale files",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "toni": "./bin/translate.js"
+  },
+  "scripts": {
+    "start": "node bin/translate.js"
+  },
+  "keywords": [
+    "cli",
+    "translate",
+    "locale",
+    "i18n"
+  ],
+  "author": "Boris Szelcsanyi",
+  "license": "MIT",
+  "dependencies": {
+    "google-translate-api": "^2.0.0",
+    "yargs": "^17.0.1",
+    "fs-extra": "^10.0.0"
+  }
+}

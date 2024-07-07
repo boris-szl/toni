@@ -1,0 +1,5 @@
+{
+  "localePath": "./locales",
+  "baseLanguage": "en",
+  "targetLanguages": ["es", "fr", "de"]
+}
