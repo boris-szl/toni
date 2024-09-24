@@ -1,6 +1,6 @@
 # toni
 
-A CLI tool to translate JSON locale files based on configuration.
+A CLI tool to translate JSON locale files based on configuration. To save time, locale kv pairs are loaded into GPT and prompted to translate values based on the input language. However, empirically GPT fails to translate all existing KV pairs, that are loaded into the prompt, even omitting some of them, which leads to incosistent values across different locale files. The margin of error increases by loading larger set of KV pairs into ChatGPT. This plugin aims to provide a blazingly fast translation and extension of locales for a given project. 
 
 ## Description
 
